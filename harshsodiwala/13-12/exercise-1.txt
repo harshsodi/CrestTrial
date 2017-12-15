@@ -1,0 +1,206 @@
+Command : echo hello world
+Output:
+hello world
+Observation:
+Prints the given string
+
+
+Command : passwd
+Output:
+New password:
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password:
+Changing password for user root.
+passwd: all authentication tokens updated successfully.
+Observation:
+Changes password of the user
+
+
+Command : date
+Output:
+Wed Dec 13 10:25:39 UTC 2017
+Observation:
+Prints the date in long format
+
+
+Command : hostname
+Output:
+f360194572da
+Observation:
+Displays the name of the computer orhost
+
+
+Command : arch
+Output:
+x86_64
+Observation:
+Displays the architecture type of the system
+
+
+Command : uname -a
+Output:
+Linux f360194572da 4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+Observation:
+Gives details of the logged in users
+
+
+Command : who am i
+Output:
+Observation:
+
+Command : who
+Output:
+Observation:
+
+
+
+Command : id
+Output:
+uid=0(root) gid=0(root) groups=0(root)
+Observation:
+Gives the id,gid and number of groups of the current users .. the number of groups to which the user belongs
+
+
+Command : last
+Output:
+jugaad.sh: line 10: last: command not found
+Observation:
+SHows the last user that logged in
+
+
+Command : finger
+Output:
+jugaad.sh: line 10: finger: command not found
+Observation:
+Get details of users from remote server
+
+Command : w
+Output:
+ 10:27:23 up 46 days, 40 min,  0 users,  load average: 0.25, 0.28, 0.27
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+Observation:
+SHows summary of every user logged in
+
+
+Command : echo /bin/bash
+Output:
+/bin/bash
+Observation:
+Simple evho
+
+
+Command : echo {con,pre}{sent,fer}{s,ed}
+Output:
+consents consented confers confered presents presented prefers prefered
+Observation:
+Construct strings using cartesian product of the strings in the braces
+
+Command : man "automatic door"
+Output:
+jugaad.sh: line 10: man: command not found
+Observation:
+manua
+
+
+Command : man ls
+Output:
+jugaad.sh: line 10: man: command not found
+Observation:
+manual of ls command
+
+
+Command : man who
+Output:
+jugaad.sh: line 10: man: command not found
+Observation:
+manual of who command
+
+
+Command : who can tell me why i got divorced
+Output:
+who: extra operand 'me'
+Try 'who --help' for more information.
+Observation:
+
+Command : lost
+Output:
+jugaad.sh: line 10: lost: command not found
+Observation:
+
+
+
+Command : clear
+Output:
+^[[3;J^[[H^[[2JObservation:
+clears the screen
+
+Command : cal 2000
+Output:
+                               2000
+
+       January               February                 March
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1          1  2  3  4  5             1  2  3  4
+ 2  3  4  5  6  7  8    6  7  8  9 10 11 12    5  6  7  8  9 10 11
+ 9 10 11 12 13 14 15   13 14 15 16 17 18 19   12 13 14 15 16 17 18
+16 17 18 19 20 21 22   20 21 22 23 24 25 26   19 20 21 22 23 24 25
+23 24 25 26 27 28 29   27 28 29               26 27 28 29 30 31
+30 31
+        April                   May                   June
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1       1  2  3  4  5  6                1  2  3
+ 2  3  4  5  6  7  8    7  8  9 10 11 12 13    4  5  6  7  8  9 10
+ 9 10 11 12 13 14 15   14 15 16 17 18 19 20   11 12 13 14 15 16 17
+16 17 18 19 20 21 22   21 22 23 24 25 26 27   18 19 20 21 22 23 24
+23 24 25 26 27 28 29   28 29 30 31            25 26 27 28 29 30
+30
+        July                  August                September
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+                   1          1  2  3  4  5                   1  2
+ 2  3  4  5  6  7  8    6  7  8  9 10 11 12    3  4  5  6  7  8  9
+ 9 10 11 12 13 14 15   13 14 15 16 17 18 19   10 11 12 13 14 15 16
+16 17 18 19 20 21 22   20 21 22 23 24 25 26   17 18 19 20 21 22 23
+23 24 25 26 27 28 29   27 28 29 30 31         24 25 26 27 28 29 30
+30 31
+
+      October               November               December
+Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa   Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7             1  2  3  4                   1  2
+ 8  9 10 11 12 13 14    5  6  7  8  9 10 11    3  4  5  6  7  8  9
+15 16 17 18 19 20 21   12 13 14 15 16 17 18   10 11 12 13 14 15 16
+22 23 24 25 26 27 28   19 20 21 22 23 24 25   17 18 19 20 21 22 23
+29 30 31               26 27 28 29 30         24 25 26 27 28 29 30
+                                              31
+											  
+Observation:
+displays calender of the given year
+
+
+Command : cal 9 172,
+Output:
+cal: illegal year value: use 1-9999: '172,'
+Observation:
+Calender call with wrong inputs
+
+
+Command : bc -l
+Output:
+jugaad.sh: line 10: bc: command not found
+Observation:
+bc is the command line calculator
+
+
+Command : echo 5+4 | bc -l
+Output:
+jugaad.sh: line 10: bc: command not found
+Observation:
+passws 5+4b to bc which gives 9 out of it
+
+Command : time sleep 5
+Output:
+
+real    0m5.002s
+user    0m0.000s
+sys     0m0.000s
+Observation:
+SSleeps for 5 seconds

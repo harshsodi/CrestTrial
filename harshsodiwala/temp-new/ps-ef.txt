@@ -1,0 +1,6 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 09:53 ?        00:00:00 /bin/bash
+root        15     0  0 09:54 ?        00:00:00 bash
+root        35     0  0 10:07 ?        00:00:00 bash
+root        69     0  0 11:47 ?        00:00:00 bash
+root        88    69  0 12:12 ?        00:00:00 ps -ef

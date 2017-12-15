@@ -1,0 +1,4 @@
+cat-test1.txt
+test1
+test2
+testdir/

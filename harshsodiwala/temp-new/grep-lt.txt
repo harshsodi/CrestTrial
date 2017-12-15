@@ -1,0 +1,9 @@
+ls-a.txt:ls.txt
+ls-grep-endWithTxt.txt:ls.txt
+ls-grep-endWithTxt.txt:man-ls.txt
+ls-grep-sort.txt:ls.txt
+ls-grep-sort.txt:man-ls.txt
+ls-grep-v-test.txt:ls.txt
+ls-grep-v-test.txt:man-ls.txt
+ls-l.txt:-rw-r--r-- 1 Crest 197121 28 Dec 12 15:52 ls.txt
+ls-la.txt:-rw-r--r-- 1 Crest 197121  28 Dec 12 15:52 ls.txt

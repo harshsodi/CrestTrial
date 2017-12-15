@@ -1,0 +1,224 @@
+
+
+
+passwd: unknown user 1
+
+
+date: invalid date ‘1’
+
+
+hostname: cannot set hostname; this system lacks the functionality
+
+
+arch: extra operand ‘1’
+Try 'arch --help' for more information.
+
+
+uname: extra operand ‘1’
+Try 'uname --help' for more information.
+
+
+jugaad.sh: line 7: dmesg: command not found
+jugaad.sh: line 7: more: command not found
+
+
+jugaad.sh: line 7: uptime: command not found
+
+
+who: extra operand ‘1’
+Try 'who --help' for more information.
+
+
+
+
+
+
+jugaad.sh: line 7: last: command not found
+
+
+> Finger: connect::Connection refused
+
+
+jugaad.sh: line 7: w: command not found
+
+
+jugaad.sh: line 7: top: command not found
+
+
+
+
+
+
+jugaad.sh: line 7: man: command not found
+
+
+jugaad.sh: line 7: man: command not found
+
+
+jugaad.sh: line 7: man: command not found
+
+
+who: extra operand ‘me’
+Try 'who --help' for more information.
+
+
+jugaad.sh: line 7: lost: command not found
+
+
+
+
+jugaad.sh: line 7: cal: command not found
+
+
+jugaad.sh: line 7: cal: command not found
+
+
+jugaad.sh: line 7: bc: command not found
+
+
+jugaad.sh: line 7: bc: command not found
+
+
+
+echo hello world
+hello world
+
+
+passwd
+passwd: unrecoverable error 1722
+
+
+date
+Wed, Dec 13, 2017  1:20:40 PM
+
+
+hostname
+DESKTOP-0LFVCMR
+
+
+arch
+x86_64
+
+
+uname -a
+MINGW64_NT-10.0 DESKTOP-0LFVCMR 2.3.0(0.290/5/3) 2015-09-29 10:48 x86_64 Msys
+
+
+dmesg | more
+jugaad.sh: line 7: dmesg: command not found
+jugaad.sh: line 7: more: command not found
+
+
+uptime
+jugaad.sh: line 7: uptime: command not found
+
+
+who am i
+
+
+who
+
+
+id
+uid=197609(Crest) gid=197121 groups=197121
+
+
+last
+jugaad.sh: line 7: last: command not found
+
+
+finger
+
+Displays information about a user on a specified system running the
+Finger service. Output varies based on the remote system.
+
+FINGER [-l] [user]@host [...]
+
+  -l        Displays information in long list format.
+  user      Specifies the user you want information about. Omit the user
+            parameter to display information about all users on the
+            specifed host.
+  @host     Specifies the server on the remote system whose users you
+            want information about.
+
+
+
+w
+jugaad.sh: line 7: w: command not found
+
+
+top
+jugaad.sh: line 7: top: command not found
+
+
+echo /usr/bin/bash
+/usr/bin/bash
+
+
+echo {con,pre}{sent,fer}{s,ed}
+consents consented confers confered presents presented prefers prefered
+
+
+man "automatic door"
+jugaad.sh: line 7: man: command not found
+
+
+man ls
+jugaad.sh: line 7: man: command not found
+
+
+man who
+jugaad.sh: line 7: man: command not found
+
+
+who can tell me why i got divorced
+who: extra operand ‘me’
+Try 'who --help' for more information.
+
+
+lost
+jugaad.sh: line 7: lost: command not found
+
+
+clear
+[3J[H[2J
+
+cal 2000
+jugaad.sh: line 7: cal: command not found
+
+
+cal 9 172,
+jugaad.sh: line 7: cal: command not found
+
+
+bc -l
+jugaad.sh: line 7: bc: command not found
+
+
+echo 5+4 | bc -l
+jugaad.sh: line 7: bc: command not found
+
+
+time sleep 5
+
+real	0m5.043s
+user	0m0.015s
+sys	0m0.031s
+
+
+Command : echo hello world
+Output: 
+hello world
+Observation:
+echo {con,pre}{sent,fer}{s,ed}
+man "automatic door"
+man ls
+man who
+who can tell me why i got divorced
+lost
+clear
+cal 2000
+cal 9 172,
+bc -l
+echo 5+4 | bc -l
+time sleep 5

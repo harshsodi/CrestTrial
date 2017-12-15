@@ -1,0 +1,87 @@
+1.
+- cd changes the current woring directory to Home
+- ls -al prints the list with details
+- cd . does not change the directory
+- cd .. changes to parent directory
+
+2.
+bin: contains system functionalities
+usr/bin: contains higher level system funcitonalities
+sbin: contains super user functionalities
+tmp: temporary file storage space
+
+3.
+/dev contains standart input, output and error file. it also prints all connected device with the machine as a file.
+
+4.
+contains important imformations about system. the commands fetch these informations from these files.
+
+5.
+cd ~root
+
+6.
+cd ~
+
+7.
+mkdir work play
+
+8.
+rm work
+
+9.
+cp /etc/passwd ~
+
+10.
+mv ~/passwd work
+
+11.
+ln -s /dev/tty ~/ttylink
+- not possible to create hard link of tty. :invalid cross-device link.
+
+12.
+-l prints the details of the list
+-L shows the information of the actual file rather than symbolic link.
+
+13.
+cat hello.txt
+hello world
+ctrl+d
+
+14.
+cp /dev/stdin newfile
+
+15.
+dir can be replacement of ls commands
+
+16.
+while deleting $SHELL file, it asks "remove regular file 'bin/bash'?", we have to give n as input otherwise it will delete the current shell.
+
+17.
+cat > "#file"
+rm ./#file
+
+18.
+cat > "-file"
+rm ./-file
+
+19.
+-prints all combinations of each block. :consents consented confers confered presents presented prefers prefered
+- cp /etc/{passwd,group} ~
+
+20.
+mv work play -parent
+
+21.
+rm -r work
+
+22.
+rm ./* -r
+
+23.
+-d lists directory only , not contents
+-i prints index number of each file.
+-R lists subdirectories recursively.
+-F append indicators to the list.
+
+
+

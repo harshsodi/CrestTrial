@@ -1,0 +1,7 @@
+Filesystem      Size  Used Avail Use% Mounted on
+none            1.1T  173G  871G  17% /
+tmpfs            63G     0   63G   0% /dev
+tmpfs            63G     0   63G   0% /sys/fs/cgroup
+/dev/sdb5       1.1T  173G  871G  17% /etc/hosts
+shm              64M     0   64M   0% /dev/shm
+tmpfs            63G     0   63G   0% /sys/firmware

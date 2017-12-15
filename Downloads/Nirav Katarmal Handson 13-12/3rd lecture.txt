@@ -1,0 +1,22 @@
+3rd excersise
+1)chmod 444 filename
+	chmod a=r filename
+	chmod ugo=r filename
+2)it will be executed and a different id would be there as this file is link to bash file which will invoke the shell for the user.
+3)
+4)rm shell
+5)chmod 000 /home
+	chmod 755 /home
+6)this feature can be useful to define user defined default permission to files that are been created .
+7)last few lines that are being updated.
+8)find /home  -print 2>/dev/null
+9)[root@6e91775590a6 home]# find . -size +10000k -print
+10)find /home -exec file '{}' ';'
+11)[root@6e91775590a6 home]# cat /etc/passwd | grep root
+root:x:0:0:root:/root:/bin/bash
+12)find /home -exec cat '{}' ';' 2>/dev/null| grep hello | sort
+13)locate emacs| grep -vi lib
+14)
+15)[root@4789eb97838c home]# tar -cvf dnasjbb Python-2.7.6
+16)od -d /dev/urandom
+17)it tries to mount the devices and file system attached to the device.

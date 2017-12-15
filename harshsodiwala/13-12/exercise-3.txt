@@ -1,0 +1,32 @@
+1.
+chmod 111 test
+chmod u=r,g=r,o=r
+
+2.
+chmod +s will give special permission which is that the file inherits permissions from owner rather than user. Means if root is the owner then file created by him with this special permission will be run as root permissions by all users.
+
+3.
+Admin can give special permission to the files that are to be run by other users but needs to access root's resources .. example passwd command, it modifies /etc/passwd file which is root's file ... so passwwd command file needs special 's' permission
+
+5.
+chmod 700 ~
+
+6.
+Umask defines how the default permissions will be when a file is created. The permission we specify are deducted.
+Example : if we give umask 777 ... all files created aftarwards will have 000 permissions
+
+8.
+find hello.txt ~
+
+9.
+find / -name "*" -size +1M
+
+10.
+find ~ -type f -exec file {} \;
+
+11.
+cat /etc/passwd | grep root
+
+13.
+locate *emacs* | grep -vi lib
+

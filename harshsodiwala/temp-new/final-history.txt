@@ -1,0 +1,265 @@
+    1  ls
+    2  clear
+    3  pwd
+    4  whoami
+    5  ssh 10.0.1.22
+    6  clear
+    7  ssh
+    8  clear
+    9  perl
+   10  clear
+   11  ls
+   12  ls -l
+   13  ls --help
+   14  clear
+   15  python
+   16  ifconfig
+   17  cd /sbin
+   18  cd /
+   19  ls
+   20  cd bin
+   21  ls | grep ifconfig
+   22  type ifconfig
+   23  locate ifconfig
+   24  find ifconfig
+   25  clear
+   26  ls -l
+   27  clear
+   28  exit
+   29  cat > harhs
+   30  cat harsh
+   31  mv harhs harsh
+   32  cat harsh
+   33  man ls
+   34  ls man
+   35  clear
+   36  man
+   37  type man
+   38  locate man
+   39  fund man
+   40  find man
+   41  clear
+   42  ls abc
+   43  ls abc > harsh
+   44  ls abc &> harsh
+   45  ls abc 2&> harsh
+   46  car harsh
+   47  ls abc 2> harsh
+   48  cat harsh
+   49  ls abc 2>? harsh
+   50  sudo chmod 777 *
+   51  clear
+   52  chmod
+   53  mkdir out
+   54  chmod 777 out
+   55  chmod 666 out
+   56  cd 777 out
+   57  cd out
+   58  pwd
+   59  mkdir middle
+   60  cd ..
+   61  clear
+   62  ls
+   63  ls -l | grep out
+   64  chmod 666 out
+   65  ls -l | grep out
+   66  chmod 000 out
+   67  ls -l | grep out
+   68  lear
+   69  cat err
+   70  clear
+   71  ls abc
+   72  ls abc err
+   73  ls abc out
+   74  ls abc out > err
+   75  ls abc out 2> err
+   76  ls abc out 2>& err
+   77  ls abc out >& err
+   78  ls abc out 2>&1 err
+   79  cat err
+   80  ls abc out 2>&1 err
+   81  pwd
+   82  mkdir handson
+   83  cd handson
+   84  pwd
+   85  ls
+   86  mkdir harshsodiwala
+   87  cd harshsodiwala
+   88  clear
+   89  cat > test1
+   90  cat > test2
+   91  clear
+   92  mkdir testdir
+   93  cd testdir
+   94  cat > test1
+   95  clear
+   96  cd ..
+   97  pwd
+   98  ls > ls.txt
+   99  ls -l > ls-l.txt
+  100  ls -a > ls-a.txt
+  101  cat ls-l.txt
+  102  cat ls-a.txt
+  103  cat ls.txt
+  104  clear
+  105  ls -la > ls-la.txt
+  106  cat > cat.txt
+  107  cat test
+  108  cat test\ grep test
+  109  ls | grep test
+  110  cat test1
+  111  cat test1 > cat-test1.txt
+  112  clear
+  113  ls | grep tes > ls-pipe-grep-tes.txt
+  114  cat ls-pipe-grep-tes.txt
+  115  clear
+  116  cat test1 test2 > cat-concat-test1-test2.txt
+  117  cat cat-concat-test1-test2.txt
+  118  mkdir new > mkdir-new.txt
+  119  cat > rmdir
+  120  cat rmdir
+  121  mv rmdir rmdir.txt > mv-rmdir-rmdir-txt.txt
+  122  chmod 764 * > chmod-764-star.txt
+  123  chmod u-x > chmod-u-minus-x.txt
+  124  chmod u-x test1 > chmod-u-minus-x-test1.txt
+  125  ls -l test1
+  126  chown root test1
+  127  chown root test1 > chown-root-test1.txt
+  128  echo "New content" >> test1
+  129  history > final-report-history.txt
+  130  cat final-report-history
+  131  cat final-report-history.txt
+  132  rm final-report-history.txt
+  133  man ls >& man-ls.txt
+  134  cat man-ls.txt
+  135  ls | grep test
+  136  ls | grep test > ls-grep-test.txt
+  137  ls | grep -v test
+  138  ls | grep -v test > ls-grep-v-test.txt
+  139  ls | grep -v test | sort > ls-grep-v-test.txt
+  140  ls | grep -v test > ls-grep-v-test.txt
+  141  ls | grep -v test | sort
+  142  ls | grep -v test | sort | ls-grep-sort.txt
+  143  ls | grep -v test | sort > ls-grep-sort.txt
+  144  ls | grep t$
+  145  ls | grep txt$
+  146  ls | grep (txt)$
+  147  ls | grep txt$ > ls-grep-endWithTxt.txt
+  148  new g
+  149  grp
+  150  newgrp
+  151  ls | grep txt{1} > ls-grep-endWithTxt.txt
+  152  ls | grep -E t\{3}
+  153  ls | grep txt$ > ls-grep-endWithTxt.txt
+  154  ls | grep -E t\{1}
+  155  ls | grep -E t\{0,1}
+  156* ls | grep t\{1}
+  157  ls | grep t\{0,}
+  158  ls | grep -e t\{0,}
+  159  ls | grep -E t\{0,}
+  160  ls | grep -E t\{0,1}
+  161  ls | grep -E t/{1}
+  162  ls | grep -E t/{1,}
+  163  ls | grep -E t\{1,}
+  164  ls | grep -E t\{1,} > grep-minimum-one-t.txt
+  165  ls | grep t*t
+  166  ls | grep ^t*t
+  167  ls | grep ^t*t$
+  168  ls | grep ^l*t$
+  169  ls | grep ^lt$
+  170  ls | grep l^t$
+  171  ls | grep -E l*t
+  172  ls | grep -E l*t > grep-l*t.txt
+  173  cat grep-l*t
+  174  clear
+  175  ls
+  176  cat > sample
+  177  cat sample | grep -E t\{2}
+  178  cat sample | grep -E t\{2} > grep-e-t{2}.txt
+  179  cat sample | grep tt
+  180  cat sample | grep -E t\{1}
+  181  cat sample | grep -E t\{1,1}
+  182  echo {a..h} > echo-{a-h}.txt
+  183  cat echo-{a-h}.txt
+  184  echo {a,b,c,h} > echo-{a,b,c,h}.txt
+  185  echo {a,b,c,h} > echo-{a b c h}.txt
+  186  echo h{d-g}s
+  187  echo h{d,g}s
+  188  echo h{a-h}s
+  189  echo h{c..g}s
+  190  echo h{c..s}s
+  191  echo h{c..s}s > echo-h{c..s}s.txt
+  192  echo h{c..s}s > echo-h{c-s}s.txt
+  193  echo h{c..s}s | grep ss> echo-h{c-s}s.txt
+  194  echo h{c..s}s > echo-h{c-s}s.txt
+  195  echo h{c..s}s | grep ss
+  196* 
+  197  echo h{c..s}s | grep hss
+  198  ftp
+  199  ftp > testftp
+  200  cat testftp
+  201  mv testftp ftp.txt
+  202  ls grep .txt
+  203  ls | grep .txt
+  204  ls | grep .txt | wc -l
+  205  echo $PATH
+  206  echo $PATH > echo-path.txt
+  207  echo $ENV
+  208  echo $USR
+  209  echo $USER
+  210  env
+  211  env > env.txt
+  212  echo $HOME
+  213  echo $HOME > echo-home.txt
+  214  MYVAR="Harsh Sodiwala's variable"
+  215  MYVAR="Harsh Sodiwala's variable" > new-variable.txt
+  216  echo $MYVAR > echo-my-new-variable.txt
+  217  echo $MYVAR
+  218  unset $MYVAR > unset-myvar.txt
+  219  unset MYVAR > unset-myvar.txt
+  220  echo $MYVAR
+  221  export $MYVAR="Sodi's variable"
+  222  $MYVAR="Sodi's variable"
+  223  MYVAR="Sodi's variable"
+  224  export $MYVAR
+  225  export MYVAR
+  226  export MYVAR > export-myvar.txt
+  227  ping 127.0.0.1 > ping.txt
+  228  cat ping.txt
+  229  ls | grep .txt | wc -l
+  230  echo "caaat" | grep c*t
+  231  echo "caaat" | grep a*t
+  232  echo "caaat" | grep "a*t"
+  233  echo "caaat" | grep "c*t"
+  234  ps
+  235  ps > ps.txt
+  236  ps -ef > ps-ef.txt
+  237  cat ps-ef.txt
+  238  ps -ef
+  239  cat ps.txt
+  240  cat ps-ef.txt
+  241  ps -ux
+  242  ps -u Crest
+  243  cat > pidof.txt
+  244  cat > pkill-ps.txt
+  245  cat nice-1-ps.txt
+  246  cat > nice-1-ps.txt
+  247  cat top.txt
+  248  cat > top.txt
+  249  cat > top.txt
+  250  cat > renice.txt
+  251  cat df.txt
+  252  cat > df.txt
+  253  cat > df-h.txt
+  254  cat /. free-m
+  255  cat > free-m
+  256  cat > free-g
+  257  type bash
+  258  cat > help.sh
+  259  bash help.sh
+  260  cat > help.sh
+  261  bash help.sh
+  262  cd temp-new
+  263  ls
+  264  cat > adduser-harshsodi
+  265  history > final-history.txt

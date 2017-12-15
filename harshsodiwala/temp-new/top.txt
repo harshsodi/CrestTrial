@@ -1,0 +1,12 @@
+Tasks:   6 total,   1 running,   5 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  9.6 us,  1.1 sy,  0.0 ni, 89.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 13190329+total, 89324512 free,  6308260 used, 36270532 buff/cache
+KiB Swap: 31248380 total, 31248380 free,        0 used. 12393440+avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    1 root      20   0   11788   2992   2720 S   0.0  0.0   0:00.03 bash
+   15 root      20   0   11788   3080   2700 S   0.0  0.0   0:00.03 bash
+   35 root      20   0   11788   2992   2612 S   0.0  0.0   0:00.06 bash
+   69 root      20   0   11788   2904   2528 S   0.0  0.0   0:00.05 bash
+   91 root      20   0   11788   2928   2548 S   0.0  0.0   0:00.04 bash
+  109 root      20   0   51940   3588   3088 R   0.0  0.0   0:00.00 top
