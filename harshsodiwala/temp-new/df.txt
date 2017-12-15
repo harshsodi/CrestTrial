@@ -1,0 +1,7 @@
+Filesystem      1K-blocks      Used Available Use% Mounted on
+none           1152391100 180884872 912945052  17% /
+tmpfs            65951648         0  65951648   0% /dev
+tmpfs            65951648         0  65951648   0% /sys/fs/cgroup
+/dev/sdb5      1152391100 180884872 912945052  17% /etc/hosts
+shm                 65536         0     65536   0% /dev/shm
+tmpfs            65951648         0  65951648   0% /sys/firmware

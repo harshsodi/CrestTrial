@@ -1,0 +1,10 @@
+6th excersise
+
+2) vi mole.txt then press i to go in insert mode.
+3) press esc then G the $ to go the end of file and then type the string.
+4)to delete a charchter use x in command mode to replace one charchter use rc in command mode and to delete geography use dw place cursor on g.
+5)go the end of second paragraph and inser words.
+6)go the line anmd press dd in command mode.
+7):%s/is/was
+8)
+9):wq

@@ -1,0 +1,10 @@
+total 17
+drwxr-xr-x 1 Crest 197121   0 Dec 12 15:53 ./
+drwxr-xr-x 1 Crest 197121   0 Dec 12 15:51 ../
+-rw-r--r-- 1 Crest 197121  28 Dec 12 15:52 ls.txt
+-rw-r--r-- 1 Crest 197121  53 Dec 12 15:52 ls-a.txt
+-rw-r--r-- 1 Crest 197121 255 Dec 12 15:52 ls-l.txt
+-rw-r--r-- 1 Crest 197121   0 Dec 12 15:53 ls-la.txt
+-rw-r--r-- 1 Crest 197121  10 Dec 12 15:51 test1
+-rw-r--r-- 1 Crest 197121  10 Dec 12 15:51 test2
+drwxr-xr-x 1 Crest 197121   0 Dec 12 15:51 testdir/

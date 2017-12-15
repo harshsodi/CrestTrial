@@ -1,0 +1,32 @@
+1.
+	1) chmod 444 file
+	2) chmod ugo=r file
+	3) chmod ugo+r-wx file
+
+2.
+	cp /bin/sh ~
+
+4.
+	rm ./sh
+	
+5.
+	chmod 700 root
+	chmod 776 root
+	
+6.
+	umask is used to set default permission for a new file.
+
+8.
+	find ~ 2>/dev/null
+	
+10.
+	find ~ -type f -exec file {} \;
+
+11.
+	cat /etc/passwd | grep root
+
+13.
+	locate *emacs* | grep -vi lib
+
+
+	

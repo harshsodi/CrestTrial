@@ -1,0 +1,97 @@
+//Exercise 2
+
+1.
+'cd' command with no path takes to the home directory of the current user
+ls -al gives the detailed list of all files including hidden (.) files
+cd . doesn't take you anywhere as '.' points to the current directory
+'..' points to the parent directory and hence 'cd..' changes the present working directory to the parent of the current one.
+/etc has a long list of files hence 'more' helps to see the file properly one page at a time.
+'cat passwd' shows content of passwd file which stores id,gid,password(encrypted) etc of users
+
+2.
+the /bin directory contains the binaries for basic functionalities like pwd, ls etc commands
+/sbin contains binaries for super user functionalities
+/tmp stores the temperory files.
+
+3.
+Character and Block oriented devices can be identified by 'ls -l' by first character in each line.
+'b' for block oriented device
+'c' for character oriented device
+
+Current tty is a file named 'tty'
+Root in our case is the owner of the tty
+
+4.
+'cat interrupts' gives weird but interesting output.
+The output of top command when compared to the list of files/dirs in /proc shows that /proc has a directory for each running process. Hence, it resembles a pseudo filesystem for the running processes.
+
+5.
+~username points to the path to the home directory of 'username' user and hence cd ~username leads there.
+
+6.
+cd ~ ..... ~ is the home dir of the current user.
+
+7.
+mkdir work play
+
+8.
+rmdir play
+
+9.
+cp /etc/passwd ~
+
+10.
+mv ~/passwd play
+
+11.
+cd play ; ln -s /dev/tty terminal
+Trying to make hadrlink to tty gives following error
+ln: failed to create hard link 'terminal2' => '/dev/tty': Invalid cross-device link
+
+12.
+ls -l shows detailed list
+while
+ls -L shows the details of the file that the link points to instead of the link itself.
+Example : the 'terminal' pointing to '/dev/tty' here
+
+13.
+cp terminal newfile.txt
+This works similar to cat command. terminal is the soft link created a few questions ago.
+
+14.
+cp newfile.txt terminal .... this prints the contents of the newfile.txt file to the console.
+After this i had to re-install bash using yum :-p
+
+15.
+echo *
+This will list all files in the directory
+
+16.
+Creating the file with 'cat > $SHELL' replace s the contents of the '/bin/bash' file as $SHELL is env variable that stores the name of the bash file
+So we create it using 'cat > "\$SHELL"' escaping the $ character
+Same for deletion
+
+17.
+cat > "#harsh"
+
+18.
+cat > "-harsh"
+
+19.
+echo {con,pre}{sent,fer}{s,ed}
+consents consented confers confered presents presented prefers prefered
+
+19.
+ cp /etc/{passwd,group} ~
+ 
+20.
+cp -d play work
+
+21.
+rm -rf work
+
+22.
+-d : Lists directories instead of directory structure
+-i : i is for inode and it prints the index number for wach file
+-R : Prints the list recursively, that is, the files and directories inside sub-directories
+-F : Classify the files using symbols instead of colors
